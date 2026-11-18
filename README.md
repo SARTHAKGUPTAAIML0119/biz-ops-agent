@@ -61,7 +61,22 @@ export GEMINI_API_KEY=your_key_here  # Linux/Mac
 
 ### 4. Run
 
-**Interactive mode (recommended for first run):**
+#### 🌐 Launch Web Dashboard (Streamlit):
+```bash
+streamlit run app.py
+```
+Open [http://localhost:8501](http://localhost:8501) in your browser to view the interactive dashboard, review exceptions, approve actions, and generate reports.
+
+#### 🚀 Deploy to Cloud (Streamlit Community Cloud):
+1. Go to **[share.streamlit.io](https://share.streamlit.io)** and log in with your GitHub account.
+2. Click **"New app"**.
+3. Select your repository: `SARTHAKGUPTAAIML0119/biz-ops-agent`.
+4. Main file path: `app.py`.
+5. Click **"Deploy"**! You will get an instant public live URL (e.g. `https://biz-ops-agent.streamlit.app`).
+
+#### 💻 Command Line Interface:
+
+**Interactive mode:**
 ```bash
 python main.py
 ```
